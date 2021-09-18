@@ -2,9 +2,11 @@ import React, { Component } from 'react'
 
 export default class NavBar extends Component {
     render() {
-        return(
+        return (
             <div>
-                <h1>Thomas Martinez</h1>
+                <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+                    <a>PokeDex</a>
+                </nav>
             </div>
         )
     }
